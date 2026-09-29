@@ -60,6 +60,7 @@ export default function Page() {
             <h1 className="max-w-4xl text-[clamp(4.4rem,11vw,10.5rem)] font-black leading-[.82] tracking-[-0.08em] text-[#f3f4e9]">
               Test the<br /><span className="text-[#0F766E]">judge.</span>
             </h1>
+            <p className="mt-5 font-mono text-xs uppercase tracking-[0.16em] text-[#f3f4e9]/50">Source and history live on GitHub</p>
             <p className="mt-10 max-w-xl text-lg leading-relaxed text-[#f3f4e9]/65 md:text-xl">
               <span className="font-mono text-[#f3f4e9]">juryrig</span> is a tiny Python toolkit for testing the AI models you use as graders — before you trust their scores.
             </p>
