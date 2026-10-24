@@ -5,7 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'juryrig — Test the judge',
   description: 'A zero-dependency Python toolkit for testing the AI models you use as graders before you trust their scores.',
-  generator: 'v0.app',
   icons: {
     icon: [
       { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
@@ -24,7 +23,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className="antialiased">{children}{process.env.NODE_ENV === 'production' && <Analytics />}</body>
     </html>
   )
