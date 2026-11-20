@@ -1,3 +1,4 @@
+import CaseBuilder from '@/components/case-builder'
 import { ArrowUpRight, Check, ChevronRight, GitBranch, ShieldCheck, Terminal } from 'lucide-react'
 
 const checks = [
@@ -99,6 +100,8 @@ export default function Page() {
         </section>
 
         <section id="install" className="grid gap-10 border-t border-[#f3f4e9]/15 py-20 md:grid-cols-[.8fr_1.2fr] md:py-28 md:items-center"><div><p className="font-mono text-xs uppercase tracking-[0.2em] text-[#5EEAD4]">03 — get started</p><h2 className="mt-5 max-w-md text-4xl font-bold tracking-[-0.04em] md:text-6xl">Don&apos;t trust the score. Test it.</h2></div><div className="border border-[#f3f4e9]/15 bg-[#171a15] p-6 md:p-8"><div className="mb-5 flex items-center gap-2 font-mono text-xs text-[#f3f4e9]/60"><Terminal className="size-4" aria-hidden="true" /> terminal</div><code className="block font-mono text-lg text-[#f3f4e9] md:text-2xl"><span className="text-[#5EEAD4]">$</span> pip install juryrig</code><p className="mt-6 flex items-center gap-2 font-mono text-xs text-[#f3f4e9]/65"><ShieldCheck className="size-4 text-[#5EEAD4]" aria-hidden="true" /> zero dependencies · Python toolkit</p></div></section>
+
+        <CaseBuilder />
 
         <footer className="flex flex-col gap-5 border-t border-[#f3f4e9]/15 py-8 font-mono text-xs text-[#f3f4e9]/65 sm:flex-row sm:items-center sm:justify-between"><span>juryrig / made by Ian Alloway</span><div className="flex gap-5"><a className="transition-colors hover:text-[#5EEAD4]" href="https://github.com/ianalloway/juryrig" target="_blank" rel="noreferrer">GitHub ↗</a><a className="transition-colors hover:text-[#5EEAD4]" href="https://pypi.org/project/juryrig/" target="_blank" rel="noreferrer">PyPI ↗</a></div></footer>
       </div>

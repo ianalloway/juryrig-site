@@ -5,6 +5,8 @@ Ian Alloway's Python toolkit for auditing LLM judges.
 
 [Live site](https://exposur-ochre.vercel.app) · [Python package](https://pypi.org/project/juryrig/) · [Toolkit source](https://github.com/ianalloway/juryrig)
 
+The case builder creates a local `cases.json` download from an editable rubric, prompt, and pair of responses. Run `juryrig cases.json` to audit the example with the toolkit’s default mock judge.
+
 ## Local development
 
 Use Node.js 22 or newer and pnpm (the package manager version is recorded in
