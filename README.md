@@ -7,6 +7,8 @@ Ian Alloway's Python toolkit for auditing LLM judges.
 
 The case builder creates a local `cases.json` download from an editable rubric, prompt, and pair of responses. Run `juryrig cases.json` to audit the example with the toolkit’s default mock judge.
 
+Paste the output of `juryrig cases.json --json` into the audit report viewer to inspect verdicts, available metrics, and skipped checks locally. It accepts schema version 1 audit reports.
+
 ## Local development
 
 Use Node.js 22 or newer and pnpm (the package manager version is recorded in
